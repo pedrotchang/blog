@@ -51,7 +51,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-  ShowShareButtons: true
+  # ShowShareButtons: true
   ShareButtons: ["linkedin", "twitter"] # To customize which share buttons to be enabled on page
   socialIcons:
   - name: "kofi"
