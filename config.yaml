@@ -81,15 +81,15 @@ menu:
     - identifier: Contact
       name: "Contact"
       url: /contact/
-      weight: 11
+      weight: 15
     - identifier: Tags
       name: Tags
       url: /tags/
-      weight: 12
+      weight: 20
     - identifier: Search
       name: Search
       url: /search/
-      wegith: 13
+      weight: 25
 
 outputs:
   home:
