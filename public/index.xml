@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Pedro Tae Young Chang</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Pedro Tae Young Chang</description>
+    <image>
+      <title>Pedro Tae Young Chang</title>
+      <url>https://pedrotchang.dev/</url>
+      <link>https://pedrotchang.dev/</link>
+    </image>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Created a Hugo Blog</title>
+      <link>http://localhost:1313/posts/how-i-created-a-hugo-blog/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-i-created-a-hugo-blog/</guid>
+      <description>&lt;p&gt;I took the time to finally revamp my main website. Prior to the live one, I used one that focused on my career history
+and a short biography.&lt;/p&gt;
+&lt;p&gt;It lacked the features that a Blog should have, especially one that uses it&amp;rsquo;s base to index all of one&amp;rsquo;s writings.&lt;/p&gt;
+&lt;p&gt;So, here is how I did it.&lt;/p&gt;
+&lt;p&gt;I went over to &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/wiki/Installation&#34;&gt;https://github.com/adityatelange/hugo-PaperMod/wiki/Installation&lt;/a&gt; and followed the steps. That&amp;rsquo;s it.&lt;/p&gt;
+&lt;p&gt;So go do that!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Book a Virtual Coffee ☕️</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;!-- Cal element-click embed code begins --&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement(&#34;script&#34;)).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === &#34;string&#34;){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, [&#34;initNamespace&#34;, namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, &#34;https://app.cal.com/embed/embed.js&#34;, &#34;init&#34;);
+Cal(&#34;init&#34;, &#34;virtual-coffee&#34;, {origin:&#34;https://cal.com&#34;});
+
+  
+  // Important: Please add the following attributes to the element that should trigger the calendar to open upon clicking.
+  // `data-cal-link=&#34;pedrotchang/virtual-coffee&#34;`
+  // data-cal-namespace=&#34;virtual-coffee&#34;
+  // `data-cal-config=&#39;{&#34;layout&#34;:&#34;month_view&#34;}&#39;`
+
+  Cal.ns[&#34;virtual-coffee&#34;](&#34;ui&#34;, {&#34;hideEventTypeDetails&#34;:false,&#34;layout&#34;:&#34;month_view&#34;});
+  &lt;/script&gt;
+  &lt;!-- Cal element-click embed code ends --&gt;
+&lt;button 
+  data-cal-link=&#34;pedrotchang/virtual-coffee&#34; 
+  data-cal-namespace=&#34;virtual-coffee&#34; 
+  data-cal-config=&#39;{&#34;layout&#34;:&#34;month_view&#34;}&#39;
+  style=&#34;
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border: 2px solid black; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-weight: bold;
+    transition: all 0.3s ease;&#34;
+  onmouseover=&#34;this.style.backgroundColor=&#39;white&#39;; this.style.color=&#39;black&#39;;&#34; 
+  onmouseout=&#34;this.style.backgroundColor=&#39;black&#39;; this.style.color=&#39;white&#39;;&#34;&gt;
+  Schedule a 15 Minute Meeting
+&lt;/button&gt;
+
+&lt;h2 id=&#34;sign-up-for-my-free-newsletter&#34;&gt;Sign Up For My Free Newsletter&lt;/h2&gt;
+
+
+&lt;iframe src=&#34;https://pedrotchang.substack.com/embed&#34; width=&#34;480&#34; height=&#34;320&#34; style=&#34;border:1px solid #EEE; background:white;&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+
+&lt;h1 id=&#34;socials&#34;&gt;Socials&lt;/h1&gt;
+&lt;p&gt;💻 &lt;a href=&#34;https://www.linkedin.com/in/pedrotchang&#34;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome!</title>
+      <link>http://localhost:1313/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/</guid>
+      <description>&lt;p&gt;In 2017, I, by happenstance, read &lt;a href=&#34;https://www.amazon.com/Goodbye-Things-New-Japanese-Minimalism/dp/0393609030&#34;&gt;Goodbye, Things&lt;/a&gt; and went on a journey on becoming an extreme minimalist for 2 years. I got rid of all my posessions,
+and had only 20 pieces of clothing, and slept on thin sleeping mattress. It was an amazing experience,
+and now, as much as I thought it would be for life, it taught me some valuable lessons, and the importance
+of keeping things from &amp;ldquo;possessing&amp;rdquo; me.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

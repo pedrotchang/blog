@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pedro Tae Young Chang</title>
+    <link>http://localhost:1313/contact/</link>
+    <description>Recent content on Pedro Tae Young Chang</description>
+    <image>
+      <title>Pedro Tae Young Chang</title>
+      <url>https://pedrotchang.dev/</url>
+      <link>https://pedrotchang.dev/</link>
+    </image>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/contact/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

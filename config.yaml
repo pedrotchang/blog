@@ -1,0 +1,93 @@
+baseURL: https://pedrotchang.dev
+title: Pedro Tae Young Chang
+languageCode: en-us
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: true
+buildExpired: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Pedro Tae Young Chang - Blog
+  description: "Learnings on my adventure to become a DevOps Engineer"
+  keywords:
+    [
+      Blog,
+      Portfolio,
+      CV,
+      DevOps,
+      neovim,
+      Second Brain,
+      Linux,
+      Azure,
+      Zettelkasten,
+      Productivity,
+      vim,
+    ]
+  author: Pedro Tae Young Chang
+  images: ["https://pedrotchang.dev/"]
+  DateFormat: "October 25, 1991"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"] # To customize which share buttons to be enabled on page
+  socialIcons:
+  - name: "kofi"
+    url: "https://kofi.com"
+  - name: "x"
+    url: "https://x.com"
+
+  cover:
+    hidden: false 
+    hiddenInList: false
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: About
+      name: "About"
+      url: /aboutme/
+      weight: 10
+    - identifier: Contact
+      name: "Contact"
+      url: /contact/
+      weight: 11
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 12
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
