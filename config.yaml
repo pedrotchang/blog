@@ -88,7 +88,7 @@ menu:
       weight: 20
     - identifier: Search
       name: Search
-      url: /search/
+      url: /archive/
       weight: 25
 
 outputs:
