@@ -1,6 +1,7 @@
 ---
 title: Book a Virtual Coffee ☕️
 hideAuthor: true
+shareButtons: true
 ---
 
 {{< rawhtml >}}

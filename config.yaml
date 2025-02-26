@@ -19,6 +19,7 @@ params:
   env: production
   title: Pedro Tae Young Chang - Blog
   description: "Learnings on my adventure to become a DevOps Engineer"
+  favicon: "favicon.ico"
   keywords:
     [
       Blog,

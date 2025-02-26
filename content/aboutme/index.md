@@ -1,6 +1,7 @@
 ---
 title: Welcome!
 hideAuthor: true
+shareButtons: true
 ---
 
 In 2017, I, by happenstance, read [Goodbye, Things](https://www.amazon.com/Goodbye-Things-New-Japanese-Minimalism/dp/0393609030) and went on a journey on becoming an extreme minimalist for 2 years. I got rid of all my posessions,
