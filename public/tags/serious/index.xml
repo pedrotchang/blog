@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Pedro Tae Young Chang</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Pedro Tae Young Chang</description>
+    <title>Serious on Pedro Tae Young Chang</title>
+    <link>http://localhost:1313/tags/serious/</link>
+    <description>Recent content in Serious on Pedro Tae Young Chang</description>
     <image>
       <title>Pedro Tae Young Chang</title>
       <url>https://pedrotchang.dev/</url>
@@ -12,19 +12,7 @@
     <generator>Hugo -- 0.144.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How I Created a Hugo Blog</title>
-      <link>http://localhost:1313/posts/how-i-created-a-hugo-blog/</link>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-i-created-a-hugo-blog/</guid>
-      <description>&lt;p&gt;I took the time to finally revamp my main website. Prior to the live one, I used one that focused on my career history
-and a short biography.&lt;/p&gt;
-&lt;p&gt;It lacked the features that a Blog should have, especially one that uses it&amp;rsquo;s base to index all of one&amp;rsquo;s writings.&lt;/p&gt;
-&lt;p&gt;So, here is how I did it.&lt;/p&gt;
-&lt;p&gt;I went over to &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/wiki/Installation&#34;&gt;https://github.com/adityatelange/hugo-PaperMod/wiki/Installation&lt;/a&gt; and followed the steps. That&amp;rsquo;s it.&lt;/p&gt;
-&lt;p&gt;So go do that!&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/serious/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Commitment</title>
       <link>http://localhost:1313/posts/my-commitment/</link>
