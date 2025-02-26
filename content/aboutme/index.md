@@ -4,7 +4,7 @@ hideAuthor: true
 ---
 
 In 2017, I, by happenstance, read [Goodbye, Things](https://www.amazon.com/Goodbye-Things-New-Japanese-Minimalism/dp/0393609030) and went on a journey on becoming an extreme minimalist for 2 years. I got rid of all my posessions,
-and had only 20 pieces of clothing, and slept on thin sleeping mattress. It was an amazing experience,
+and had only 20 pieces of clothing, and slept on a thin sleeping mattress. It was an amazing experience,
 and now, as much as I thought it would be for life, it taught me some valuable lessons, and the importance
 of keeping things from "possessing" me. 
 

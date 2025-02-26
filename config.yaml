@@ -35,7 +35,7 @@ params:
     ]
   author: Pedro Tae Young Chang
   images: ["https://pedrotchang.dev/"]
-  DateFormat: "October 25, 1991"
+  DateFormat: "2 January 2006"
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: false
@@ -85,6 +85,10 @@ menu:
       name: Tags
       url: /tags/
       weight: 12
+    - identifier: Search
+      name: Search
+      url: /search/
+      wegith: 13
 
 outputs:
   home:
