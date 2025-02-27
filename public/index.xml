@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Pedro Tae Young Chang</title>
-    <link>http://localhost:1313/</link>
+    <link>https://pedrotchang.dev/</link>
     <description>Recent content in Home on Pedro Tae Young Chang</description>
     <image>
       <title>Pedro Tae Young Chang</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.144.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pedrotchang.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Created a Hugo Blog</title>
-      <link>http://localhost:1313/posts/how-i-created-a-hugo-blog/</link>
+      <link>https://pedrotchang.dev/posts/how-i-created-a-hugo-blog/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-i-created-a-hugo-blog/</guid>
+      <guid>https://pedrotchang.dev/posts/how-i-created-a-hugo-blog/</guid>
       <description>&lt;p&gt;I took the time to finally revamp my main website. Prior to the live one, I used one that focused on my career history
 and a short biography.&lt;/p&gt;
 &lt;p&gt;It lacked the features that a Blog should have, especially one that uses it&amp;rsquo;s base to index all of one&amp;rsquo;s writings.&lt;/p&gt;
@@ -27,9 +27,9 @@ and a short biography.&lt;/p&gt;
     </item>
     <item>
       <title>My Commitment</title>
-      <link>http://localhost:1313/posts/my-commitment/</link>
+      <link>https://pedrotchang.dev/posts/my-commitment/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-commitment/</guid>
+      <guid>https://pedrotchang.dev/posts/my-commitment/</guid>
       <description>&lt;p&gt;Today was the day (writing a day later), where I purchased my Kubestronaut Exam Certificates.&lt;/p&gt;
 &lt;p&gt;I paid exactly $822.50 for all 5 cerificates. Phew.&lt;/p&gt;
 &lt;p&gt;I am not in an amazing financial space. These are going on the credit card. Well, to be honest,
@@ -40,9 +40,9 @@ seeing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Book a Virtual Coffee ☕️</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://pedrotchang.dev/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://pedrotchang.dev/contact/</guid>
       <description>&lt;!-- Cal element-click embed code begins --&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
   (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement(&#34;script&#34;)).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === &#34;string&#34;){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, [&#34;initNamespace&#34;, namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, &#34;https://app.cal.com/embed/embed.js&#34;, &#34;init&#34;);
@@ -86,9 +86,9 @@ Cal(&#34;init&#34;, &#34;virtual-coffee&#34;, {origin:&#34;https://cal.com&#34;}
     </item>
     <item>
       <title>Welcome!</title>
-      <link>http://localhost:1313/aboutme/</link>
+      <link>https://pedrotchang.dev/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/aboutme/</guid>
+      <guid>https://pedrotchang.dev/aboutme/</guid>
       <description>&lt;p&gt;In 2017, I, by happenstance, read &lt;a href=&#34;https://www.amazon.com/Goodbye-Things-New-Japanese-Minimalism/dp/0393609030&#34;&gt;Goodbye, Things&lt;/a&gt; and went on a journey on becoming an extreme minimalist for 2 years. I got rid of all my posessions,
 and had only 20 pieces of clothing, and slept on a thin sleeping mattress. It was an amazing experience,
 and now, as much as I thought it would be for life, it taught me some valuable lessons, and the importance
