@@ -4,7 +4,7 @@ hideAuthor: true
 shareButtons: true
 ---
 
-![Profile](assets/images/profile.png)
+![Profile](/profile.png)
 
 In 2017, I, by happenstance, read [Goodbye, Things](https://www.amazon.com/Goodbye-Things-New-Japanese-Minimalism/dp/0393609030) and went on a journey on becoming an extreme minimalist for 2 years. I got rid of all my posessions,
 and had only 20 pieces of clothing, and slept on a thin sleeping mattress. It was an amazing experience,
@@ -19,5 +19,5 @@ I think it was said, "If something is too complex to be used, then it's unnecssa
 
 That being said, I like to use :*minimalism* as my baseline method of applying tech.
 
-![Profile](assets/images/father-hood.png)
+![Father-hood](/father-hood.png)
 
