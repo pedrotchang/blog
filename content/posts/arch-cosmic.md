@@ -18,7 +18,8 @@ log in to my user; which, is not fine since I want to build packages!
 To fix this, I went to my Home folder in my Root user, entered my user's home folder, and commented out the sway 
 startup script, rebooted, and now I have a blank TTY screen.
 
-> [!NOTE] Check battery levels
+> [!NOTE] 
+> Check battery levels
 ```bash
 cat /sys/class/power_supply/BAT0/capacity
 ```
@@ -34,12 +35,14 @@ sudo pacman -Rns sway
 
 ## Installing Yay
 
-[!WARNING] Skipping yay for now, I got error:  [Makefile:144]: yay error 1 saying Golang connection error.
+> [!WARNING] 
+> Skipping yay for now, I got error:  [Makefile:144]: yay error 1 saying Golang connection error.
 
 Apparently you can fix this by skipping compiling with `yay-bin`, but I just didn't proceed with `yay` since cosmic
 is available as an official package. Why add possible insecure packages, when you can just install it securely.
 
->[!NOTE] If you want to proceed with yay:
+> [!NOTE] 
+> If you want to proceed with yay:
 
 ```bash
 sudo pacman -S --needed git base-devel
