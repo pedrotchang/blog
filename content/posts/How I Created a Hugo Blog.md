@@ -4,6 +4,7 @@ date: 2025-02-25
 tags:
 - Hugo
 - Blog
+- How-I
 ---
 
 I took the time to finally revamp my main website. Prior to the live one, I used one that focused on my career history
