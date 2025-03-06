@@ -74,6 +74,12 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: CV
+      name: "CV"
+      url: /Pedro_Tae_Young_Chang_CV.pdf/
+      weight: 1
+      params:
+        newTab: true
     - identifier: About
       name: "About"
       url: /aboutme/

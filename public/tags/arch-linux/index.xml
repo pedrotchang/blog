@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Arch-Linux on Pedro Tae Young Chang</title>
+    <link>http://localhost:1313/tags/arch-linux/</link>
+    <description>Recent content in Arch-Linux on Pedro Tae Young Chang</description>
+    <image>
+      <title>Pedro Tae Young Chang</title>
+      <url>https://pedrotchang.dev/</url>
+      <link>https://pedrotchang.dev/</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Installed Cosmic DE on Arch Linux</title>
+      <link>http://localhost:1313/posts/arch-cosmic/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/arch-cosmic/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;I installed &lt;a href=&#34;https://swaywm.org/&#34;&gt;Sway&lt;/a&gt; at first, but after some recommendations from my community, I decided to
+install &lt;a href=&#34;https://system76.com/cosmic/?srsltid=AfmBOop17FtW1UOfgED-6p2ifjVtXCeS_D3amYv3cNZtSI5_i7Jk7Num&#34;&gt;Cosmic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;first-steps&#34;&gt;First steps:&lt;/h2&gt;
+&lt;p&gt;When I removed sway, I did it without disabling autostart in my &lt;code&gt;bash_profile&lt;/code&gt;. This caused me to not be able to
+log in to my user; which, is not fine since I want to build packages!&lt;/p&gt;
+&lt;p&gt;To fix this, I went to my Home folder in my Root user, entered my user&amp;rsquo;s home folder, and commented out the sway
+startup script, rebooted, and now I have a blank TTY screen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

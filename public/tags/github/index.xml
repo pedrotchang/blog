@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on Pedro Tae Young Chang</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in GitHub on Pedro Tae Young Chang</description>
+    <image>
+      <title>Pedro Tae Young Chang</title>
+      <url>https://pedrotchang.dev/</url>
+      <link>https://pedrotchang.dev/</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Set my GitHub README</title>
+      <link>http://localhost:1313/posts/github-readme/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/github-readme/</guid>
+      <description>&lt;p&gt;I finally took the time to update my README on GitHub. If you don&amp;rsquo;t know, your &lt;code&gt;username/username&lt;/code&gt; repository in
+GitHub is unique!&lt;/p&gt;
+&lt;p&gt;If you modify your README, you can get something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;README&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/README.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s get started!&lt;/p&gt;
+&lt;h2 id=&#34;blog-workflow&#34;&gt;Blog Workflow&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s create a blog workflow. I use a Hugo website for my blog. You can learn how to make one yourself following
+my blog &lt;a href=&#34;(https://www.pedrotchang.dev/posts/how-i-created-a-hugo-blog/)&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;At the end, it will automatically pull your five recent blog posts from your website.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
