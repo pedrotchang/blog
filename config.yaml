@@ -76,7 +76,7 @@ menu:
   main:
     - identifier: CV
       name: "CV"
-      url: /Pedro_Tae_Young_Chang_CV.pdf/
+      url: /Pedro_Tae_Young_Chang_CV.pdf
       weight: 1
       params:
         newTab: true
