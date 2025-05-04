@@ -27,12 +27,12 @@ Nights I will meditate for 40 minutes.
 
 | Activity | Time |
 | -------------- | --------------- |
-| Run | 6:00 - 7:00 |
-| Study | 8:00 - 12:00 |
-| Lunch | 12:00 - 13:00 |
-| Study | 13:00 - 17:00 |
-| Dinner | 17:00 - 18:30 |
+| Run | 4:30 - 5:30 |
+| Study | 6:00 - 14:00 |
+| Meal | 15:00 - 16:00 |
 | Meditate | 19:20 - 20:00 |
+
+Rest of the day after studying should be spent watching Ari :)
 
 ## Schedule by day
 
