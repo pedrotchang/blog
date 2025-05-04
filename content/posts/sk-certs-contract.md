@@ -6,9 +6,7 @@ tags:
 - Certificates
 ---
 
-# Study Schedule while in South Korea
-
-Introduction
+## Introduction
 
 This is what I plan to do while I am in South Korea in the month of May and
 June.
