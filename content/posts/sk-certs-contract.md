@@ -6,9 +6,9 @@ tags:
 - Certificates
 ---
 
-# Contract for Certificates
+# Study Schedule while in South Korea
 
-## Introduction
+Introduction
 
 This is what I plan to do while I am in South Korea in the month of May and
 June.
@@ -36,7 +36,7 @@ Rest of the day after studying should be spent watching Ari :)
 
 ## Schedule by day
 
-8th - 11th settle down. If I can study I will.
+May 8th - 11th settle down. If I can study I will.
 
 11 May - 7 June (29 days total)
 
@@ -50,7 +50,7 @@ If time allows:
 - [ ] [[aws-certified-sysops-administrator-associate]] 15%
 - [ ] [[aws-certified-developer-associate]] 15%
 
-## Certified Kubernetes Administrator currently at 60%
+### Certified Kubernetes Administrator currently at 60%
 
 <https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/>
 
@@ -62,7 +62,7 @@ Test on **May 16** or **May 18** Friday or Sunday
 
 May 17th is Saturday - Rest
 
-## AWS Certified Cloud Practitioner - Foundational
+### AWS Certified Cloud Practitioner - Foundational
 
 <https://www.youtube.com/watch?v=NhDYbskXRgc&t=409s>
 
@@ -71,7 +71,7 @@ May 18 - 20
 
 Test on **May 21**, Wednesday
 
-## Certified Kubernetes Application Developer
+### Certified Kubernetes Application Developer
 
 <https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/>
 
@@ -88,7 +88,7 @@ May 25 - May 28 (4 days)
 
 Test on **May 29**, Thursday
 
-## AWS Certified Solutions Architect - Associate
+### AWS Certified Solutions Architect - Associate
 
 May 29
 May 30 is Saturday - Rest
@@ -97,14 +97,14 @@ May 31 - June 5 (6 days)
 
 Test on **June 6**, Friday
 
-### Extra - If time allows
+## Extra - If time allows
 
-## AWS Certified SysOps Administrator - Associate
+### AWS Certified SysOps Administrator - Associate
 
 Probably will only need 20 hours or less
 
 
-## AWS Certified Developer - Associate
+### AWS Certified Developer - Associate
 
 Probably will only need 20 hours or less
 
