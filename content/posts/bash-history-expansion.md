@@ -19,7 +19,7 @@ $ # The last word.
 So if you add it all together:
 ```bash
 !$ # The last word of the previous command.
-!* # The first word of the previous command.
+!* # All the words of the previous command except the first.
 !! # The previous command.
 ```
 
