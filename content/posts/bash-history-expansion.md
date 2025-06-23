@@ -6,9 +6,7 @@ tags:
 - Bash
 ---
 
-# Bash: History Expansion
-
-## Event Designators (found on `man bash`)
+# Event Designators (found on `man bash`)
 
 These commands help to save time on Linux based tests:
 
