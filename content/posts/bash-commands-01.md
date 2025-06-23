@@ -1,28 +1,21 @@
 ---
-title: Bash Commands 01
+title: "Bash: History Expansion"
 date: 2025-06-21
 tags:
 - Linux
 - Bash
 ---
 
-# Bash Commands 01
+# Bash: History Expansion
 
-Introduction:
-Just a collection of commands that help me with Linux, and Kubernetes tests.
+## Event Designators (found on `man bash`)
 
-Some commands that I learned that helped on my CKAD were bash commands such as:
-```bash
-!$
-!*
-!!
-```
+These commands help to save time on Linux based tests:
 
-Reading the manual at `man bash` you can read that:
 ```bash
 ! # Start a history sub.
 * # All the words but the zeroth. After the 1st command all the words
-$  The last word.
+$ # The last word.
 ```
 
 So if you add it all together:
@@ -32,16 +25,17 @@ So if you add it all together:
 !! # The previous command.
 ```
 
-Here is how it's useful:
-```bash
-kubectl create deployment nginx-app --image=nginx
-kubectl describe deployment !$
+### Examples
 
-kubectl get pods -l app=frontend -o wide
-kubectl get services !*
+```bash
+kubectl apply -f my-pod.yaml 
+vim !$ # vim my-pod.yaml
+
+touch file1.txt file2.txt
+rm !* # rm file1.txt file2.txt
 
 kubectl get pods
-!! -n kube-system
+!! -n kube-system # kbuectl get pods -n kube-system
 ```
 
 ---
