@@ -15,13 +15,13 @@ that help me to become more efficient and improve in my output and, hopefully, c
 collective wellbeing.
 
 
-## Sign Up For My Free Newsletter
-
-{{< rawhtml >}}
-
-<iframe src="https://pedrotchang.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-
-{{< /rawhtml >}}
+<!-- ## Sign Up For My Free Newsletter -->
+<!---->
+<!-- {{< rawhtml >}} -->
+<!---->
+<!-- <iframe src="https://pedrotchang.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe> -->
+<!---->
+<!-- {{< /rawhtml >}} -->
 
 # Socials
 
