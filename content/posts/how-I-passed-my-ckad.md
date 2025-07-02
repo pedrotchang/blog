@@ -70,8 +70,18 @@ Then I followed this GitHub repo, and just did the exercises there:
 
 This is a great way to use your laptop anywhere to practice.
 
-## Time
+## Time Management
 
+It is incredily important to manage your time. I thought it would be best to read
+through each question and find the ones that I could work on easily.
+
+You can't! It's too slow. The system will eat up your time.
+
+Your best bet is watch your time, divide the amount of questions you have and set
+set aside those minutes to the question, and then move forward! 
+
+Don't dwell on the questions and try to figure out how to solve it, skip, and 
+come back to it.
 
 ---
 
