@@ -1,0 +1,286 @@
+cv:
+  name: Pedro Tae Young Chang
+  location: Los Angeles
+  email: pedrotychang@gmail.com
+  phone: +1-323-333-5181
+  website: https://pedrotchang.dev
+  social_networks:
+    - network: LinkedIn
+      username: pedrotchang
+    - network: GitHub
+      username: pedrotchang
+  sections:
+    summary:
+      - I’m a DevOps Engineer with hands-on experience in automating deployments using GitOps FluxCD, managing Kubernetes clusters on Talos Linux, and securing cloud environments with Azure Key Vault and External Secrets Operator. I’m proficient in deploying and scaling applications with Kubernetes, managing databases using CloudNative PG, and ensuring system reliability through monitoring with Prometheus and Grafana. I’m eager to leverage my technical skills, problem-solving abilities, and collaborative mindset to contribute to a forward-thinking team driving innovation in software delivery.
+    certificates:
+      - name: CKAD Certified Kubernetes Application Developer
+        date: 2025-06-05
+        highlights:
+          - "Issuing Organization: Linux Foundation"
+          - "Certificate ID: LF-8kytsvuaq1"
+          - "Credential: https://www.credly.com/badges/aa8b881e-118c-4dcb-8f80-4e3f2de7d848/linked_in_profile"
+    experience:
+      - company: KubeCraft
+        position: DevOps Associate
+        date:
+        start_date: 2024-12
+        end_date: present
+        location: Remote
+        summary:
+        highlights:
+          - Designed and maintained a sophisticated self-hosted infrastructure utilizing GitOps methodologies and modern DevOps practices - https://github.com/pedrotchang/homelab
+          - Built and managed a bare metal Kubernetes cluster powered by Talos Linux, FluxCD, and Omni for comprehensive cluster management.
+          - Implemented Cilium as the primary CNI solution across all clusters, prioritizing its advanced networking capabilities over traditional options like Flannel.
+          - Deployed and managed CloudnativePG operator for PostgreSQL database orchestration, enabling reliable database services for applications.
+          - Successfully deployed Linkding as a self-hosted bookmark management solution with external PostgreSQL database connectivity - https://linkding.seyzahl.com
+          - Configured ExternalDNS and Cloudflare Tunnel for automated DNS management and secure external access to services.
+          - Enhanced security through implementation of External Secrets Operator integrated with Azure Key Vault for centralized secrets management.
+          - Established efficient CI/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.
+          - Implemented infrastructure monitoring with Grafana and Prometheus.
+          - Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.
+      - company: Tesla Diner
+        position: Manager
+        date:
+        start_date: 2025-07-14
+        end_date: present
+        location: Los Angeles
+        summary:
+        highlights:
+          - "Promoted from Host to Manager in 2 months, selected from a pool of 150+ employees at the world's only Tesla Diner—a restaurant integrated within a Tesla Supercharger station"
+          - "Manage daily operations where customers order from their vehicles while charging, overseeing dual POS systems: Shift4 POS and Tesla's proprietary kiosk with integrated menu and payment processing"
+          - "Diagnosed and resolved critical modifier discrepancy between Tesla kiosk and Shift4 POS causing order failures; added missing hot matcha modifier to Shift4 POS, eliminating recurring errors"
+          - "Optimized KDS fulfillment workflow by reconfiguring SMS notifications from shakes KDS to dispatch KDS, ensuring customers receive timely text updates for car-side delivery"
+          - "Identified single point of failure in front-of-house operations and successfully advocated for redundant kiosk installation, reducing order errors and improving customer experience"
+          - "Serve as primary technical escalation point for staff, guest, and system issues, troubleshooting in real-time to maintain operational continuity in a fast-paced, technology-dependent environment"
+      - company: Tesla
+        position: Production Participant
+        date:
+        start_date: 2025-07-08
+        end_date: 2025-07-10
+        summary:
+        highlights:
+          - "Contributed 21 hours over 3 days to Tesla Diner promotional content creation"
+          - "Collaborated with Tesla employees and production team to authentically represent the Tesla Diner experience"
+          - "Gained firsthand insight into Tesla's brand storytelling and marketing approach through on-set experience"
+      - company: Brite Service Industries
+        position: IT Consultant
+        date:
+        start_date: 2024-07
+        end_date: 2024-12
+        location: Los Angeles
+        summary:
+        highlights:
+          - Collaborated directly with C-suite executives to design and implement strategic operational frameworks, resulting in a 25% enhancement in overall organizational performance through data-driven decision-making processes.
+          - Crafted comprehensive pamphlets on Brite Service Industries and industry-specific topics, enhancing client comprehension by directly addressing top five most frequently misunderstood concepts within the service sector.
+          - Directed the adoption of new technologies such as Teams, Calendly, and Loom, overseeing the onboarding of these integrations to boost productivity and communication with over 30 clients.
+      - company: MediaX AI
+        position: Freelance
+        date:
+        start_date: 2024-06
+        end_date: 2025-02
+        location: Los Angeles
+        summary:
+        highlights:
+          - Designed an advanced faceless YouTube automation system, integrating AI tools with API including Claude.ai and Eleven Labs; streamlined content generation processes, reducing video production time by 40%.
+          - Implemented a robust automation solution for generating images and voiceovers directly from source materials, increasing output to 20+ videos weekly while enhancing overall production quality and consistency.
+          - Launched a series of Airtable workflows that automated repetitive tasks, reducing manual data entry time by 10 hours weekly and freeing up resources for more strategic initiatives, ultimately enhancing project delivery.
+    projects:
+      - name: Homelab
+        link: https://github.com/pedrotchang/homelab
+        date:
+        start_date: 2025-02
+        end_date: present
+        summary: Production-grade multi-platform homelab infrastructure using Kubernetes (Talos Linux), Proxmox, TrueNAS, and hybrid cloud services.
+        highlights:
+          - "**Multi-platform architecture:** Orchestrated 2 Kubernetes clusters with Sidero Omni (S3 backups), Proxmox hypervisor, and TrueNAS storage serving NFS/iSCSI to 11+ applications across 280+ declarative configuration files."
+          - "**Hybrid cloud networking:** Deployed Pangolin server (AWS EC2) with Newt agent in Kubernetes for WireGuard-based, identity-aware reverse proxying of internet-exposed services; implemented Tailscale mesh VPN for private service access."
+          - "**Multi-cloud security:** Integrated Azure Key Vault for secret management (Pangolin auth, database credentials), Azure Blob Storage for database backups, and AWS S3 for cluster snapshots with SOPS encryption for GitOps compliance."
+          - "**HA database infrastructure:** Implemented CloudnativePG with 6+ PostgreSQL clusters (3-instance HA) featuring automated Barman backups and 14-day retention."
+          - "**Advanced networking:** Configured Cilium CNI with eBPF L2 load balancing, Kubernetes Gateway API, Cloudflare Tunnels, and automated DNS management via ExternalDNS."
+          - "**Automated CI/CD:** Built FluxCD GitOps pipeline with Mend Renovate Bot for continuous dependency updates and Prometheus/Grafana observability stack."
+      - name: Give Water Give Life | Non-Profit Website
+        date:
+        start_date: 2022-10
+        end_date: 2022-11
+        summary:
+        highlights:
+          - Drove a successful website enhancement initiative alongside product management and design teams, elevating traffic levels by 30% while ensuring functionality and user experience across all devices.
+          - Boosted outreach and produced donations by 10% to provide clean water to multiple villages.
+          - Facilitated over 15 cross-functional meetings with designers to ensure alignment on client requirements; revitalized communication processes, contributing to a 20% reduction in project timelines and improving team collaboration.
+    skills:
+      - label: Languages
+        details: Python, Go, Ruby, JavaScript, HTML, CSS
+      - label: Technologies
+        details: Kubernetes, FluxCD, Linux, Vim, Postgres, Rest-API, Git, GitHub, Jira, Notion, AI Tools
+      - label: Additional
+        details: Portuguese (fluent), Spanish (conversational), Korean (conversational)
+    education:
+      - institution: Actualize Coding Bootcamp
+        area: Web Development
+        degree: Certificate
+        date:
+        start_date: 2022-04
+        end_date: 2022-07
+        location: Remote
+        summary: Completed a four-month full-stack web development bootcamp focusing on Ruby, Rails, JavaScript, Vue.js, API-driven development, Git, and team collaboration.
+        #highlights:
+      - institution: Loyola Marymount University
+        area: Business Administration
+        degree: Coursework toward B.A.
+        date:
+        start_date: 2019-01
+        end_date: 2019-06
+        location: Los Angeles, CA, USA
+        summary:
+        highlights:
+      - institution: Pasadena City College
+        area: Business, Natural Sciences, Humanities
+        degree: A.A Degrees
+        date:
+        start_date: 2015-01
+        end_date: 2018-06
+        location: Pasadena, CA, USA
+        summary:
+        highlights:
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Source Sans 3
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: Source Sans 3
+    name_font_size: 25pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Source Sans 3
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: Source Sans 3
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-03-04'
+  render_command:
+  bold_keywords: []
