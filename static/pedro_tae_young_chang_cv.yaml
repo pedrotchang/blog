@@ -38,7 +38,7 @@ cv:
           - Established efficient CI/CD pipelines using FluxCD and Flux Operator for GitOps-based deployment, configuration management, and continuous reconciliation.
           - Implemented infrastructure monitoring with Grafana and Prometheus.
           - Automated dependency updates across applications using Mend Renovate Bot for consistent maintenance and security patching.
-      - company: Tesla Diner
+      - company: Zero2One
         position: Manager
         date:
         start_date: 2025-07-14
@@ -52,16 +52,6 @@ cv:
           - "Optimized KDS fulfillment workflow by reconfiguring SMS notifications from shakes KDS to dispatch KDS, ensuring customers receive timely text updates for car-side delivery"
           - "Identified single point of failure in front-of-house operations and successfully advocated for redundant kiosk installation, reducing order errors and improving customer experience"
           - "Serve as primary technical escalation point for staff, guest, and system issues, troubleshooting in real-time to maintain operational continuity in a fast-paced, technology-dependent environment"
-      - company: Tesla
-        position: Production Participant
-        date:
-        start_date: 2025-07-08
-        end_date: 2025-07-10
-        summary:
-        highlights:
-          - "Contributed 21 hours over 3 days to Tesla Diner promotional content creation"
-          - "Collaborated with Tesla employees and production team to authentically represent the Tesla Diner experience"
-          - "Gained firsthand insight into Tesla's brand storytelling and marketing approach through on-set experience"
       - company: Brite Service Industries
         position: IT Consultant
         date:
