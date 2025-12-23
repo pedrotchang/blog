@@ -1,0 +1,68 @@
+#!/bin/bash
+
+set -e
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
+echo -e "${GREEN}Blog Publishing Tool${NC}"
+echo
+
+# Check if gh CLI is installed
+if ! command -v gh &> /dev/null; then
+    echo -e "${RED}Error: GitHub CLI (gh) is not installed${NC}"
+    echo "Install it from: https://cli.github.com/"
+    exit 1
+fi
+
+# Check if user is authenticated
+if ! gh auth status &> /dev/null; then
+    echo -e "${RED}Error: Not authenticated with GitHub${NC}"
+    echo "Run: gh auth login"
+    exit 1
+fi
+
+# Get the latest tag or default to v0.0.0
+LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+echo -e "Latest tag: ${YELLOW}${LATEST_TAG}${NC}"
+
+# Prompt for new version
+echo
+echo -e "${GREEN}Enter new version (e.g., v1.0.0):${NC}"
+read -r VERSION
+
+# Validate version format
+if [[ ! $VERSION =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+    echo -e "${RED}Error: Version must be in format v1.0.0${NC}"
+    exit 1
+fi
+
+# Confirm
+echo
+echo -e "${YELLOW}About to publish version: ${VERSION}${NC}"
+echo -e "${YELLOW}This will:${NC}"
+echo "  1. Trigger GitHub Actions workflow"
+echo "  2. Build Docker image"
+echo "  3. Push to ghcr.io/pedrotchang/blog:${VERSION}"
+echo "  4. Create GitHub release"
+echo
+read -p "Continue? (y/N) " -n 1 -r
+echo
+
+if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+    echo "Cancelled"
+    exit 1
+fi
+
+# Trigger the workflow
+echo -e "${GREEN}Triggering publish workflow...${NC}"
+gh workflow run publish.yaml -f version="${VERSION}"
+
+echo
+echo -e "${GREEN}Success!${NC} Workflow triggered for version ${VERSION}"
+echo
+echo "Monitor progress at:"
+echo "https://github.com/$(git config --get remote.origin.url | sed 's/.*github.com[:/]\(.*\)\.git/\1/')/actions"

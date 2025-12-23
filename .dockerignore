@@ -1,0 +1,11 @@
+.git
+.github
+.gitmodules
+README.md
+.dockerignore
+Dockerfile
+*.yaml
+*.yml
+k8s/
+.hugo_build.lock
+resources/_gen
