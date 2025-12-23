@@ -7,7 +7,7 @@ WORKDIR /src
 COPY . .
 
 # Build the Hugo site
-RUN hugo --minify
+RUN hugo --gc --minify
 
 # Production stage
 FROM nginx:alpine
