@@ -1,10 +1,18 @@
 # Build stage
-FROM klakegg/hugo:0.111.3-ext-alpine AS builder
+FROM alpine:latest AS builder
+
+# Install Hugo extended
+RUN apk add --no-cache \
+    hugo \
+    git
 
 WORKDIR /src
 
 # Copy the entire site
 COPY . .
+
+# Clone the theme since git submodules aren't copied
+RUN git clone --depth 1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 
 # Build the Hugo site
 RUN hugo --gc --minify
