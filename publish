@@ -29,10 +29,26 @@ fi
 LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
 echo -e "Latest tag: ${YELLOW}${LATEST_TAG}${NC}"
 
-# Prompt for new version
+# Calculate next version (increment patch)
+if [[ $LATEST_TAG =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+    MAJOR="${BASH_REMATCH[1]}"
+    MINOR="${BASH_REMATCH[2]}"
+    PATCH="${BASH_REMATCH[3]}"
+    NEXT_VERSION="v${MAJOR}.${MINOR}.$((PATCH + 1))"
+else
+    NEXT_VERSION="v0.0.1"
+fi
+
+# Prompt for new version with suggestion
 echo
-echo -e "${GREEN}Enter new version (e.g., v1.0.0):${NC}"
+echo -e "${GREEN}Enter new version [${NEXT_VERSION}]:${NC}"
 read -r VERSION
+
+# Use suggested version if empty
+if [[ -z $VERSION ]]; then
+    VERSION=$NEXT_VERSION
+    echo -e "Using: ${YELLOW}${VERSION}${NC}"
+fi
 
 # Validate version format
 if [[ ! $VERSION =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
