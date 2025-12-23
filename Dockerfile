@@ -12,7 +12,9 @@ WORKDIR /src
 COPY . .
 
 # Clone the theme since git submodules aren't copied
-RUN git clone --depth 1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+# Remove the empty submodule directory first
+RUN rm -rf themes/PaperMod && \
+    git clone --depth 1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 
 # Build the Hugo site
 RUN hugo --gc --minify
