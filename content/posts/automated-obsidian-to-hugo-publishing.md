@@ -23,8 +23,9 @@ I maintain two separate git repositories:
 Previously, publishing a note required:
 1. Manually copying the markdown file to the blog's `content/posts/` directory
 2. Committing the change to the blog repo
-3. Running the publish script to create a release
-4. Triggering GitHub Actions to deploy
+3. Pushing the changes to GitHub
+4. Running the publish script to create a release
+5. Triggering GitHub Actions to deploy
 
 This was tedious and disrupted my writing flow.
 
@@ -105,6 +106,10 @@ fi
 # Commit
 git commit -m "$COMMIT_MSG"
 
+# Push to remote
+echo "⬆️  Pushing to remote..."
+git push
+
 # Run publish script to create release
 echo "📦 Running publish script to create release..."
 cd "$BLOG_DIR"
@@ -141,6 +146,7 @@ The hook automatically:
 - Detects the `#publish` tag
 - Copies the file to the blog repo
 - Commits the change
+- Pushes to the remote blog repository
 - Runs the publish script
 - Creates a new GitHub release
 - Triggers deployment via GitHub Actions
