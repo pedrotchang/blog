@@ -110,10 +110,10 @@ git commit -m "$COMMIT_MSG"
 echo "⬆️  Pushing to remote..."
 git push
 
-# Run publish script to create release
+# Run publish script to create release (auto-accept defaults)
 echo "📦 Running publish script to create release..."
 cd "$BLOG_DIR"
-./publish
+printf "\ny\n" | ./publish
 
 echo "✅ Blog published successfully!"
 ```
@@ -147,11 +147,13 @@ The hook automatically:
 - Copies the file to the blog repo
 - Commits the change
 - Pushes to the remote blog repository
-- Runs the publish script
+- Runs the publish script (auto-increments version by 0.0.1)
 - Creates a new GitHub release
 - Triggers deployment via GitHub Actions
 
 ## Why This Works Well
+
+**Fully automated**: The entire process runs non-interactively. The publish script automatically accepts the suggested version (incremented patch version) and triggers the GitHub release workflow.
 
 **Separation of concerns**: My Obsidian vault stays private and personal, while only tagged notes become public blog posts.
 
