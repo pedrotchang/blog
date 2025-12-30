@@ -10,6 +10,7 @@ tags:
 - Publish
 ---
 
+#publish
 
 I use Obsidian for my personal knowledge management and Hugo for my blog. I wanted a seamless way to publish notes from my Obsidian vault to my blog without manual copying or running scripts. Here's how I automated the entire workflow using git hooks.
 
