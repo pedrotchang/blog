@@ -113,6 +113,10 @@ git push
 # Calculate next version
 echo "📦 Creating release..."
 cd "$BLOG_DIR"
+
+# Fetch remote tags to get the latest version
+git fetch --tags --quiet 2>/dev/null || true
+
 LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
 
 if [[ $LATEST_TAG =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
