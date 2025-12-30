@@ -110,12 +110,32 @@ git commit -m "$COMMIT_MSG"
 echo "⬆️  Pushing to remote..."
 git push
 
-# Run publish script to create release (auto-accept defaults)
-echo "📦 Running publish script to create release..."
+# Calculate next version
+echo "📦 Creating release..."
 cd "$BLOG_DIR"
-printf "\ny\n" | ./publish
+LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
 
-echo "✅ Blog published successfully!"
+if [[ $LATEST_TAG =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+    MAJOR="${BASH_REMATCH[1]}"
+    MINOR="${BASH_REMATCH[2]}"
+    PATCH="${BASH_REMATCH[3]}"
+    NEXT_VERSION="v${MAJOR}.${MINOR}.$((PATCH + 1))"
+else
+    NEXT_VERSION="v0.0.1"
+fi
+
+echo "  Latest: $LATEST_TAG → Next: $NEXT_VERSION"
+
+# Trigger GitHub Actions workflow
+gh workflow run publish.yaml -f version="$NEXT_VERSION"
+
+if [ $? -eq 0 ]; then
+    echo "✅ Workflow triggered for $NEXT_VERSION"
+    echo "   Monitor: https://github.com/$(git config --get remote.origin.url | sed 's/.*github.com[:/]\(.*\)\.git/\1/')/actions"
+else
+    echo "❌ Failed to trigger workflow"
+    exit 1
+fi
 ```
 
 ### Step 3: Tag Notes for Publishing
