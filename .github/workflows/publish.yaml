@@ -70,26 +70,9 @@ jobs:
             Docker image published to `${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.event.inputs.version }}`
 
             ## Deployment
-            Kubernetes deployment automatically updated to version ${{ github.event.inputs.version }}
+            Update your Kubernetes deployment to use this version:
+            ```bash
+            kubectl set image deployment/blog blog=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.event.inputs.version }}
+            ```
           draft: false
           prerelease: false
-
-      - name: Deploy to Kubernetes
-        if: github.event_name == 'workflow_dispatch'
-        env:
-          KUBECONFIG_CONTENT: ${{ secrets.KUBECONFIG }}
-        run: |
-          # Set up kubectl
-          mkdir -p $HOME/.kube
-          echo "$KUBECONFIG_CONTENT" | base64 -d > $HOME/.kube/config
-          chmod 600 $HOME/.kube/config
-
-          # Update deployment
-          kubectl set image deployment/blog \
-            blog=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.event.inputs.version }} \
-            -n default
-
-          # Wait for rollout to complete
-          kubectl rollout status deployment/blog -n default --timeout=5m
-
-          echo "✅ Deployment updated to ${{ github.event.inputs.version }}"
