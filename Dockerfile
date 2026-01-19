@@ -1,10 +1,14 @@
 # Build stage
 FROM alpine:3.21 AS builder
 
-# Install Hugo extended from GitHub releases (newer than Alpine package)
-ARG HUGO_VERSION=0.146.0
-RUN apk add --no-cache git curl && \
-    curl -L "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" | tar -xz -C /usr/local/bin hugo
+# Install Hugo extended from GitHub releases
+# Pin to specific version for reproducibility
+ARG HUGO_VERSION=0.154.5
+RUN apk add --no-cache git curl libc6-compat && \
+    curl -fsSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" -o /tmp/hugo.tar.gz && \
+    tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin hugo && \
+    rm /tmp/hugo.tar.gz && \
+    hugo version
 
 WORKDIR /src
 
@@ -19,7 +23,7 @@ RUN rm -rf themes/PaperMod && \
 RUN hugo --gc --minify
 
 # Production stage
-FROM nginx:1.27-alpine
+FROM nginx:1.27.3-alpine
 
 # Copy the built site from builder
 COPY --from=builder /src/public /usr/share/nginx/html
