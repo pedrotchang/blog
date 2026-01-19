@@ -1,16 +1,6 @@
----
-title: "Node Affinity vs Taints and Tolerations in Kubernetes"
-date: 2025-03-28
-tags:
-- Kubernetes
-- CKA
-- Scheduling
-- DevOps
----
+#cka #course #k8s #kubernetes #cncf #publish
 
-#publish
-
-# Affinity vs Taints and Tolerations
+# affinity-vs-taints-and-tolerations
 
 You may need to do a combination of both: taints + tolerations & node affinity.
 
