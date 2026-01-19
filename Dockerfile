@@ -1,10 +1,10 @@
 # Build stage
 FROM alpine:3.21 AS builder
 
-# Install Hugo extended
-RUN apk add --no-cache \
-    hugo \
-    git
+# Install Hugo extended from GitHub releases (newer than Alpine package)
+ARG HUGO_VERSION=0.146.0
+RUN apk add --no-cache git curl && \
+    curl -L "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" | tar -xz -C /usr/local/bin hugo
 
 WORKDIR /src
 
@@ -12,7 +12,6 @@ WORKDIR /src
 COPY . .
 
 # Clone the theme since git submodules aren't copied
-# Remove the empty submodule directory first
 RUN rm -rf themes/PaperMod && \
     git clone --depth 1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 
