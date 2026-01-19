@@ -1,7 +1,14 @@
-#cka #course #k8s #kubernetes #cncf
+---
+title: "Kubernetes Admission Controllers"
+date: 2025-04-01
+tags:
+- Kubernetes
+- CKA
+- Security
+- DevOps
+---
 
 #publish
-
 
 ## Authorization
 

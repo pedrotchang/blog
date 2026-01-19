@@ -1,139 +1,133 @@
-#cka 
+---
+title: "Certified Kubernetes Administrator (CKA) Study Notes"
+date: 2025-03-03
+tags:
+- Kubernetes
+- CKA
+- Certification
+- DevOps
+---
 
 #publish
 
-[[cka-allowed-resources]]
+## Resources
 
-[[vim-tmux-setup-cka]]
+- [CKA Allowed Resources](https://docs.linuxfoundation.org/tc-docs/certification/certification-resources-allowed#certified-kubernetes-administrator-cka)
+- [Practice Tests - Killer.sh](https://killer.sh/)
+- [CNCF CKA Guide 2025](https://github.com/Cloud-Native-Islamabad/Certified-Kubernetes-Administrator-CKA-Guide-2025)
 
-[[practice-tests]]
-
-[cncf-cka-guide-2025](https://github.com/Cloud-Native-Islamabad/Certified-Kubernetes-Administrator-CKA-Guide-2025?tab=readme-ov-file)
-
-## high level:
+## High Level Architecture
 
 ![k8s-architecture](https://notes.kodekloud.com/images/CKA-Certification-Course-Certified-Kubernetes-Administrator-Cluster-Architecture/frame_510.jpg)
-[[cluster-architecture]]
 
-## kubernetes-control-plane:
+## Kubernetes Control Plane
 
-  - [[etcd]]
-  - [[kube-api]]
-  - [[kube-controller-manager]]
-  - [[kube-scheduler]]
-  - [[kubelet]]
-  - [[kube-proxy]]
+- etcd
+- kube-api
+- kube-controller-manager
+- kube-scheduler
+- kubelet
+- kube-proxy
 
 ## Create & Configure Pods
 
-  - [[replicasets]]
-  - [[deployments]]
-  - [[services]]
-      - [[cluster-ip]]
-      - [[load-balancer]]
+- ReplicaSets
+- Deployments
+- Services
+  - ClusterIP
+  - LoadBalancer
 
 ## Infrastructure as Code
 
-- [[imperative-vs-declarative]]
+- Imperative vs Declarative
 
-## [[kubernetes-scheduler]]
+## Kubernetes Scheduler
 
-  - [[manual-scheduling]]
-  - [[labels-and-selectors]]
-  - [[resource-limits]]
-  - [[daemon-sets]]
-  - [[static-pods]]
-  - [[multiple-schedulers]]
-  - [[scheduler-profiles]]
-  - [[admission-controllers]]
-      - [[validating-and-mutating-admission-controllers]]
+- Manual Scheduling
+- Labels and Selectors
+- Resource Limits
+- DaemonSets
+- Static Pods
+- Multiple Schedulers
+- Scheduler Profiles
+- Admission Controllers
+  - Validating and Mutating Admission Controllers
 
-## configuration
+## Configuration
 
-  - [[taints-and-tolerations]]
-  - [[node-selectors]]
-  - [[node-affinity]]
-  - [[affinity-vs-taints-and-tolerations]]
+- Taints and Tolerations
+- Node Selectors
+- Node Affinity
+- Affinity vs Taints and Tolerations
 
-## logging-monitoring
+## Logging & Monitoring
 
-  - [[monitoring-components]]
-  - [[application-logs]]
+- Monitoring Components
+- Application Logs
 
-## application-lifecyle-management
+## Application Lifecycle Management
 
-  - [[rolling-updates-and-rollback]]
-  - [[configure-applications]]
-      - [[commands-and-arguments]]
-      - [[environment-variables]]
-      - [[secrets]]
-  - [[multi-container-pods]]
-  - [[init-containers]]
-  - [[autoscaling]]
+- Rolling Updates and Rollback
+- Configure Applications
+  - Commands and Arguments
+  - Environment Variables
+  - Secrets
+- Multi-Container Pods
+- Init Containers
+- Autoscaling
 
 ## Cluster Maintenance
 
-  - [[os-updates]]
-  - [[software-versioning]]
-  - [[cluster-upgrade-process]]
-  - [[backup-and-restore-methods]]
+- OS Updates
+- Software Versioning
+- Cluster Upgrade Process
+- Backup and Restore Methods
 
 ## Security
 
 ![security](https://notes.kodekloud.com/images/CKA-Certification-Course-Certified-Kubernetes-Administrator-Security-Section-Introduction/frame_50.jpg)
-  - [[security-primitives]]
-  - [[authentication]]
-  - [[tls-certificates]]
-  - [[kubeconfig]]
-  - [[api-groups]]
-  - [[authorization]]
-  - [[role-based-access-controls]]
-  - [[cluster-roles]]
-  - [[service-accounts]]
-  - [[image-security]]
-  - [[pre-req-security-in-docker]]
-  - [[security-contexts]]
-  - [[network-policies]]
-  - [[developing-network-policies]]
-  - [[custom-resource-definitions]]
-  - [[custom-controllers]]
+
+- Security Primitives
+- Authentication
+- TLS Certificates
+- kubeconfig
+- API Groups
+- Authorization
+- Role-Based Access Controls (RBAC)
+- Cluster Roles
+- Service Accounts
+- Image Security
+- Security Contexts
+- Network Policies
+- Custom Resource Definitions (CRDs)
+- Custom Controllers
 
 ## Storage
 
-  - [[docker-storage]]
-  - [[container-storage-interface]]
-  - [[k8s-volumes]]
-  - [[k8s-persistent-volumes]]
-  - [[k8s-pvc]]
-  - [[storage-class]]
+- Docker Storage
+- Container Storage Interface (CSI)
+- Volumes
+- Persistent Volumes
+- Persistent Volume Claims (PVC)
+- Storage Classes
 
 ## Networking
 
-  - [[networking-prereqs]]
-  - [[cluster-networking]]
-  - [[pod-networking]]
-  - [[cni-in-k8s]]
-  - [[ip-address-management]]
-  - [[service-networking]]
-  - [[cluster-dns]]
-  - [[coredns-in-k8s]]
-  - [[ingress]]
-  - [[gateway-api]]
+- Cluster Networking
+- Pod Networking
+- CNI in Kubernetes
+- IP Address Management
+- Service Networking
+- Cluster DNS
+- CoreDNS
+- Ingress
+- Gateway API
 
-[[kubernetes-the-hard-way]]
+## Other Topics
 
-## Other Topics:
-
-  - [[json-path]]
-    - [[json-in-k8s]]
+- JSONPath
+- Kubernetes the Hard Way
 
 ## Practice Tests
 
-  - [[lightning-lab]]
-
-
-
----
-
-
-202503031018
+- Lightning Labs
