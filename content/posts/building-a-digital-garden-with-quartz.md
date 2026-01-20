@@ -1,7 +1,5 @@
 ---
 title: "Building a Digital Garden with Quartz and Kubernetes"
-publish: true
-type: blog
 date: 2026-01-19
 tags:
 - Quartz
