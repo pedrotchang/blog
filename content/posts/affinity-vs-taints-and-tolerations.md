@@ -1,3 +1,11 @@
+---
+title: "affinity-vs-taints-and-tolerations"
+publish: false
+type: garden
+tags: []
+created: 2025-12-30
+---
+
 #cka #course #k8s #kubernetes #cncf #publish
 
 # affinity-vs-taints-and-tolerations
