@@ -1,4 +1,7 @@
 ---
+type: garden
+publish: false
+created: 2025-12-29
 title: "Automating Blog Posts from Obsidian to Hugo with Git Hooks"
 date: 2025-12-29
 tags:
