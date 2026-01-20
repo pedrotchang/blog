@@ -1,6 +1,6 @@
 ---
+publish: true
 title: "affinity-vs-taints-and-tolerations"
-publish: false
 type: garden
 tags: []
 created: 2025-12-30
