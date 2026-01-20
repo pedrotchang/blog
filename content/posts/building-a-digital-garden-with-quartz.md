@@ -2,12 +2,12 @@
 title: "Building a Digital Garden with Quartz and Kubernetes"
 date: 2026-01-19
 tags:
+- blog
 - Quartz
 - Kubernetes
 - Obsidian
 - Digital Garden
 - Tutorial
-created: 2026-01-19
 ---
 
 # Let's Build a Digital Garden Together
