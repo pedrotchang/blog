@@ -74,6 +74,12 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: Garden
+      name: "Garden"
+      url: "https://garden.pedrotchang.dev"
+      weight: 0
+      params:
+        newTab: true
     - identifier: CV
       name: "CV"
       url: "/Pedro_Tae_Young_Chang_CV.pdf"
