@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-01-28T18:30:00Z",
+  "source_repo": "/home/seyza/Repos/github.com/pedrotchang/homelab",
+  "queue": [
+    {
+      "id": "blog-001",
+      "title": "Running Claude Code CLI in Kubernetes",
+      "filename": "running-claude-code-in-kubernetes.md",
+      "scheduled_date": "2026-01-29",
+      "status": "published",
+      "source_commits": ["31b51f3", "b34e4fb", "5c6947e", "8702b43"],
+      "tags": ["kubernetes", "claude-code", "homelab", "containers", "ai"]
+    },
+    {
+      "id": "blog-002",
+      "title": "Self-Hosting Git with Forgejo",
+      "filename": "self-hosted-git-forgejo-kubernetes.md",
+      "scheduled_date": "2026-01-30",
+      "status": "pending",
+      "source_commits": ["0691165", "03ce56b", "13182ea", "2b0afba"],
+      "tags": ["forgejo", "git", "kubernetes", "homelab", "cicd", "gitops"]
+    },
+    {
+      "id": "blog-003",
+      "title": "Connecting TrueNAS to Kubernetes with Democratic-CSI",
+      "filename": "truenas-kubernetes-storage-democratic-csi.md",
+      "scheduled_date": "2026-01-31",
+      "status": "pending",
+      "source_commits": ["b897a79", "974baed", "abd6eee", "1c12d77"],
+      "tags": ["truenas", "kubernetes", "storage", "iscsi", "nfs", "homelab"]
+    },
+    {
+      "id": "blog-004",
+      "title": "Building a Private AI Stack in Kubernetes",
+      "filename": "building-private-ai-stack-kubernetes.md",
+      "scheduled_date": "2026-02-01",
+      "status": "pending",
+      "source_commits": ["54dc970", "241fa4b", "4cfeb5e", "b090f3b"],
+      "tags": ["ollama", "ai", "kubernetes", "homelab", "llm", "open-webui"]
+    },
+    {
+      "id": "blog-005",
+      "title": "Self-Hosting Photos with Immich",
+      "filename": "self-hosting-photos-immich-kubernetes.md",
+      "scheduled_date": "2026-02-02",
+      "status": "pending",
+      "source_commits": ["73d6879", "99bcbbc", "ea23b55", "ce67ae9"],
+      "tags": ["immich", "photos", "kubernetes", "homelab", "backup", "cloudnativepg"]
+    },
+    {
+      "id": "blog-006",
+      "title": "Running a Modded Minecraft Server on Kubernetes",
+      "filename": "minecraft-server-kubernetes-homelab.md",
+      "scheduled_date": "2026-02-03",
+      "status": "pending",
+      "source_commits": ["9c5aee0", "ea14c42", "73bc881", "b5174f2"],
+      "tags": ["minecraft", "kubernetes", "homelab", "gaming", "containers"]
+    }
+  ],
+  "published": []
+}
